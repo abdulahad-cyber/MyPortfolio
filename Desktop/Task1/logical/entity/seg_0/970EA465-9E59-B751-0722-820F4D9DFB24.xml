@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="970EA465-9E59-B751-0722-820F4D9DFB24" name="Students">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:25:16 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Student_Id" id="51F3C055-F5DF-0760-D097-A7DE8FE09601">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:25:26 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58747123-3D1C-4C0F-ECA9-0E32A4F1DD0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_Name" id="122434A0-E404-0CDF-65AF-05D70937A1C9">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:25:41 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>68125EFE-2BF1-4476-17E1-1D3DAE74E49E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_Name" id="9961C648-819D-40D7-E401-0B283B513467">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:25:51 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77B5E70D-EDCB-B48D-6189-A9A4EC200055</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="269A6A1D-7A6F-CB38-796F-7C981DC59950">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:26:02 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6E55836F-4E26-3C5D-E7D0-4284A57CB8B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registeration_Date" id="0E4EC213-3AE7-C03A-1CDE-8ADD7DB699EC">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:26:08 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>230646EB-3CA6-56EE-46E4-E6AADFF8F984</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registeration_Id" id="5641C146-555A-6DC0-8761-B8CEACD0F423">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:47:19 UTC</createdTime>
+<generatorID>B35990F4-7BB3-B81A-5820-9CB932F531BF</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<referedAttribute>F2948BC0-A5EF-8E9A-37FF-EAAEA7387D45</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F493C842-835D-19F6-356F-C57D57CAF921</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Enrollement_Id" id="7BC3621A-0F78-59D4-396F-36CEAC26B721">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:47:49 UTC</createdTime>
+<generatorID>48816FBC-7F75-C077-E697-C437FA491A88</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<referedAttribute>EDC46970-05CC-1B8E-05A1-484BDB9E698B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B18EE9BD-F757-95C5-F23A-EFDF1953F455</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Make_UP_Id" id="96EA8370-CA1A-50C5-0AC8-4E1548B64D0B">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:49:34 UTC</createdTime>
+<generatorID>B3EA8C09-3D0F-D166-5194-547C66504E23</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<referedAttribute>F0EDA7A3-FDE1-5E10-6064-D681786E21E9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C027E683-E73A-4BDA-3980-29A18BBD02B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03979060-1029-A219-BA62-2B1E5DAC4375" name="Students PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:25:39 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51F3C055-F5DF-0760-D097-A7DE8FE09601</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

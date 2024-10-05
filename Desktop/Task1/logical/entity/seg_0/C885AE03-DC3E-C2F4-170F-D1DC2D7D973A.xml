@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C885AE03-DC3E-C2F4-170F-D1DC2D7D973A" name="Instructors">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:41:01 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Instructor_ID" id="0E018BFE-6628-3A64-BA17-19DD2B54357F">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:42:28 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>050BDBB7-2A7B-187E-202C-FC2F3EB039CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Instructor_Name" id="1ACA3A76-DB73-750C-0B48-59A146E14D86">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:42:44 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9398374F-4B03-D154-8681-F83A5A5B3CA5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course_Id" id="336CF771-D424-9396-37CC-C8F202F3FE62">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:43:32 UTC</createdTime>
+<generatorID>1076FF37-32F0-CA22-8D42-F65ECBE30A9F</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<referedAttribute>0ECB75BC-D95F-B6C1-6CE6-5288D6F342B7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>96602656-6BA2-9667-61DD-E2FB17989521</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD10F02A-5E9A-FB59-1765-4DFB2DE19EE8" name="Instructors PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:42:41 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E018BFE-6628-3A64-BA17-19DD2B54357F</attributeRef>
+<attributeRef>336CF771-D424-9396-37CC-C8F202F3FE62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

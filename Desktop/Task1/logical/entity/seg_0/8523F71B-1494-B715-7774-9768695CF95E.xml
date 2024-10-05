@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8523F71B-1494-B715-7774-9768695CF95E" name="Make_Up_Exams">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:28:57 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Make_UP_Id" id="F0EDA7A3-FDE1-5E10-6064-D681786E21E9">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:29:12 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C027E683-E73A-4BDA-3980-29A18BBD02B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student_Id" id="6D507088-0566-A27B-AC47-EA772F00D7E1">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:29:25 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58747123-3D1C-4C0F-ECA9-0E32A4F1DD0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Exam_ID" id="0D216F95-75A5-03D6-92A4-8E39E330C4AB">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:29:36 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9295BF97-7952-99DD-7E67-FCE2131C3A08</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Make_Up_Date" id="A298E6D7-C86C-6807-A3E3-5F36E628D109">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:29:48 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9470CDC7-D80F-269E-3319-83ADB4029678</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reason" id="DB5A360D-0BFE-5256-F5E4-4415306292FE">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:30:01 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2E23474-AC0E-9D25-5DBE-E00B6D864169</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9043D94-DAC7-9E56-C471-646AACF42FCD" name="Make_Up_Exams PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:29:22 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F0EDA7A3-FDE1-5E10-6064-D681786E21E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

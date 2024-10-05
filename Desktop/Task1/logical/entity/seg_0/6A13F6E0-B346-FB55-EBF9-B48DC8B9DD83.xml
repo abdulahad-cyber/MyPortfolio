@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A13F6E0-B346-FB55-EBF9-B48DC8B9DD83" name="Registerations">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:26:52 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Registeration_Id" id="F2948BC0-A5EF-8E9A-37FF-EAAEA7387D45">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:27:04 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F493C842-835D-19F6-356F-C57D57CAF921</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student_ID" id="D6884F51-AE2C-A214-A09F-2BDB7D13DE85">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:27:19 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>58747123-3D1C-4C0F-ECA9-0E32A4F1DD0A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Course_ID" id="D72C32B6-7D32-AAA6-4F88-D593A2AFC3F1">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:27:33 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>96602656-6BA2-9667-61DD-E2FB17989521</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Registeration_Date(2)" id="5CFE3F55-7CD2-2B6F-8961-8BE70A4366D6">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:27:46 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>1C6B582B-6D39-0D9A-69B4-A615E10513BF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5E6E416-F08B-C64E-D99C-11BDC071ABAB" name="Registerations PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 22:27:18 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="149561B8-2B86-E40D-7E48-F8B304D1C633" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2948BC0-A5EF-8E9A-37FF-EAAEA7387D45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
