@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { TypingText } from "@/components/typing-text"
-import { Download, ExternalLink, Calendar, Award, Mail, Phone, Linkedin, Github, Facebook, Menu, X } from "lucide-react"
+import { Download, Calendar, Award, Mail, Phone, Linkedin, Github, Facebook, Menu, X } from "lucide-react"
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home")
@@ -52,7 +52,7 @@ export default function Portfolio() {
         "A comprehensive wedding planning platform with vendor management, guest tracking, and event coordination features.",
       tech: ["React", "FastAPI", "PostgreSQL"],
       category: "Full Stack",
-      githubUrl: "https://github.com/abdulahad-cyber/Semester-5-Projects/tree/main/DB-PROJECT",
+      githubUrl: "https://github.com/abdulahad-cyber/wedding-management-system", // Add your actual repo URL
     },
     {
       title: "TF-IDF Vectorization with OpenMP & MPI",
@@ -60,7 +60,7 @@ export default function Portfolio() {
         "High-performance text processing system using parallel computing techniques for large-scale document analysis.",
       tech: ["C++", "OpenMP", "MPI"],
       category: "Systems Programming",
-      githubUrl: "https://github.com/abdulahad-cyber/Semester-5-Projects/tree/main/PDC-PROJECT"
+      githubUrl: "https://github.com/abdulahad-cyber/tfidf-vectorization", // Add your actual repo URL
     },
     {
       title: "Employee Management System",
@@ -68,6 +68,7 @@ export default function Portfolio() {
         "Low-level employee database system built entirely in Assembly language with custom data structures.",
       tech: ["Assembly", "x86"],
       category: "Systems Programming",
+      githubUrl: "https://github.com/abdulahad-cyber/employee-management-assembly", // Add your actual repo URL
     },
     {
       title: "Centralized Messaging System",
@@ -75,13 +76,15 @@ export default function Portfolio() {
         "Real-time messaging platform with multi-threading support and efficient message routing algorithms.",
       tech: ["C++", "Networking"],
       category: "Systems Programming",
+      githubUrl: "https://github.com/abdulahad-cyber/centralized-messaging", // Add your actual repo URL
     },
     {
-      title: "Alphalete Shopify Store",
+      title: "Alphabetic Shopify Store",
       description:
         "Custom e-commerce theme with advanced product filtering, responsive design, and optimized performance.",
       tech: ["Liquid", "HTML", "CSS", "JavaScript"],
       category: "E-commerce",
+      githubUrl: "https://github.com/abdulahad-cyber/alphabetic-shopify-store", // Add your actual repo URL
     },
   ]
 
@@ -241,7 +244,6 @@ export default function Portfolio() {
                       <h3 className="text-xl font-bold text-white group-hover:text-green-400 transition-colors">
                         {project.title}
                       </h3>
-                      <ExternalLink className="h-5 w-5 text-gray-400 group-hover:text-green-400 transition-colors" />
                     </div>
                     <p className="text-gray-300 text-sm leading-relaxed">{project.description}</p>
                     <div className="flex flex-wrap gap-2">
@@ -394,7 +396,7 @@ export default function Portfolio() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="https://www.facebook.com/profile.php?id=100052458142094"
+                  href="#"
                   className="p-3 bg-gray-800 rounded-full hover:bg-green-400 hover:text-black transition-all duration-300 hover:scale-110"
                 >
                   <Facebook className="h-5 w-5" />
