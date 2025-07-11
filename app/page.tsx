@@ -52,6 +52,7 @@ export default function Portfolio() {
         "A comprehensive wedding planning platform with vendor management, guest tracking, and event coordination features.",
       tech: ["React", "FastAPI", "PostgreSQL"],
       category: "Full Stack",
+      githubUrl: "https://github.com/abdulahad-cyber/Semester-5-Projects/tree/main/DB-PROJECT",
     },
     {
       title: "TF-IDF Vectorization with OpenMP & MPI",
@@ -59,6 +60,7 @@ export default function Portfolio() {
         "High-performance text processing system using parallel computing techniques for large-scale document analysis.",
       tech: ["C++", "OpenMP", "MPI"],
       category: "Systems Programming",
+      githubUrl: "https://github.com/abdulahad-cyber/Semester-5-Projects/tree/main/PDC-PROJECT"
     },
     {
       title: "Employee Management System",
@@ -75,7 +77,7 @@ export default function Portfolio() {
       category: "Systems Programming",
     },
     {
-      title: "Alphabetic Shopify Store",
+      title: "Alphalete Shopify Store",
       description:
         "Custom e-commerce theme with advanced product filtering, responsive design, and optimized performance.",
       tech: ["Liquid", "HTML", "CSS", "JavaScript"],
