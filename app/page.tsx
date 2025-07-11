@@ -7,7 +7,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-// Removed TypingText import as it's no longer used for "Software Developer"
 import {
   Download,
   Calendar,
@@ -124,15 +123,7 @@ export default function Portfolio() {
     },
   ]
 
-  const handleDownloadCV = () => {
-    const link = document.createElement("a")
-    link.href = "/Abdul_Ahad_Resume.pdf"
-    link.download = "Abdul_Ahad_Resume.pdf"
-    link.target = "_blank"
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
-  }
+  // Removed handleDownloadCV function as it's no longer needed for the button
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -204,13 +195,21 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
+            {/* Changed Button to an <a> tag styled as a button */}
             <Button
+              asChild
               size="lg"
               className="bg-green-400 hover:bg-green-500 text-black font-semibold px-8 py-3 transition-all duration-300 hover:scale-105"
-              onClick={handleDownloadCV}
             >
-              <Download className="mr-2 h-5 w-5" />
-              Download CV
+              <a
+                href="/Abdul_Ahad_Resume.pdf"
+                download="Abdul_Ahad_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download CV
+              </a>
             </Button>
           </div>
           <div className="relative">
