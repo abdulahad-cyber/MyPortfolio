@@ -7,8 +7,22 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-// Remove the TypingText import
-import { Download, Calendar, Award, Mail, Phone, Linkedin, Github, Facebook, Menu, X } from "lucide-react"
+import { TypingText } from "@/components/typing-text"
+import {
+  Download,
+  Calendar,
+  Award,
+  Mail,
+  Phone,
+  Linkedin,
+  Github,
+  Facebook,
+  Menu,
+  X,
+  Code,
+  Globe,
+  Database,
+} from "lucide-react" // Added Code, Globe, Database icons
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home")
@@ -79,7 +93,7 @@ export default function Portfolio() {
       githubUrl: "https://github.com/abdulahad-cyber/centralized-messaging", // Add your actual repo URL
     },
     {
-      title: "Alphalete Shopify Store",
+      title: "Alphabetic Shopify Store",
       description:
         "Custom e-commerce theme with advanced product filtering, responsive design, and optimized performance.",
       tech: ["Liquid", "HTML", "CSS", "JavaScript"],
@@ -88,13 +102,26 @@ export default function Portfolio() {
     },
   ]
 
-  const skills = [
-    { name: "C++" },
-    { name: "OOP" },
-    { name: "HTML/CSS" },
-    { name: "Liquid/Shopify" },
-    { name: "MongoDB" },
-    { name: "SQL" },
+  // Updated skills data structure
+  const skillCategories = [
+    {
+      name: "Programming Languages",
+      icon: Code,
+      iconColor: "text-blue-400", // Example color, adjust as needed
+      skills: ["C", "C++", "Python", "JavaScript"],
+    },
+    {
+      name: "Web Development",
+      icon: Globe,
+      iconColor: "text-green-400", // Example color, adjust as needed
+      skills: ["HTML", "CSS"],
+    },
+    {
+      name: "Databases",
+      icon: Database,
+      iconColor: "text-purple-400", // Example color, adjust as needed
+      skills: ["PostgreSQL", "Oracle", "MongoDB"],
+    },
   ]
 
   const handleDownloadCV = () => {
@@ -169,11 +196,9 @@ export default function Portfolio() {
               </h1>
               <div className="text-xl text-gray-300 leading-relaxed">
                 <p className="mb-2">A passionate</p>
-                {/* In the Hero Section, replace the TypingText component with a static span and add a custom class for the glow */}
-                <div className="text-2xl font-semibold text-green-400 min-h-[2rem] text-glow-green">
-                  Software Developer
+                <div className="text-2xl font-semibold text-green-400 min-h-[2rem]">
+                  <TypingText text="Software Developer" speed={150} delay={1000} />
                 </div>
-                {/* Removed the description below */}
               </div>
             </div>
             <Button
@@ -203,15 +228,29 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12">Skills</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {skills.map((skill, index) => (
+          <h2 className="text-4xl font-bold mb-12 text-center">Technical Skills</h2> {/* Centered heading */}
+          <div className="grid md:grid-cols-3 gap-8">
+            {skillCategories.map((category, index) => (
               <Card
                 key={index}
                 className="bg-gray-900 border-gray-800 hover:border-green-400/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-400/10"
               >
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-bold mb-2 text-white">{skill.name}</h3>
+                <CardContent className="p-6">
+                  <div className="flex items-center mb-4">
+                    <category.icon className={`h-6 w-6 mr-3 ${category.iconColor}`} />
+                    <h3 className={`text-xl font-bold ${category.iconColor}`}>{category.name}</h3>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {category.skills.map((skill, skillIndex) => (
+                      <Badge
+                        key={skillIndex}
+                        variant="secondary"
+                        className="bg-gray-800 text-gray-300 hover:bg-green-400/20 hover:text-green-400 transition-colors"
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             ))}
