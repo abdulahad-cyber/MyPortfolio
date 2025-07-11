@@ -514,7 +514,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="border-t border-gray-800 py-8 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
-          <div className="text-gray-400 mb-4 md:mb-0">© 2024 Abdul Ahad. All rights reserved.</div>
+          <div className="text-gray-400 mb-4 md:mb-0">© 2025 Abdul Ahad. All rights reserved.</div>
           <div className="flex space-x-4">
             <a
               href="https://linkedin.com/in/abdulahadyousfi/"
