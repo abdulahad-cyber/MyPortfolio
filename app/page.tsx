@@ -7,7 +7,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { TypingText } from "@/components/typing-text"
 import {
   Download,
   Calendar,
@@ -22,7 +21,7 @@ import {
   Code,
   Globe,
   Database,
-} from "lucide-react" // Added Code, Globe, Database icons
+} from "lucide-react"
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("home")
@@ -196,8 +195,9 @@ export default function Portfolio() {
               </h1>
               <div className="text-xl text-gray-300 leading-relaxed">
                 <p className="mb-2">A passionate</p>
-                <div className="text-2xl font-semibold text-green-400 min-h-[2rem]">
-                  <TypingText text="Software Developer" speed={150} delay={1000} />
+                {/* Re-added text-glow-green and corrected spelling */}
+                <div className="text-2xl font-semibold text-green-400 min-h-[2rem] text-glow-green">
+                  Software Developer
                 </div>
               </div>
             </div>
