@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+// Removed TypingText import as it's no longer used for "Software Developer"
 import {
   Download,
   Calendar,
@@ -139,7 +140,9 @@ export default function Portfolio() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-xl font-bold">abdulahad.dev</div>
+            <div className="text-xl font-bold">
+              <span className="text-green-400">AbdulAhad</span>.dev
+            </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
@@ -195,7 +198,7 @@ export default function Portfolio() {
               </h1>
               <div className="text-xl text-gray-300 leading-relaxed">
                 <p className="mb-2">A passionate</p>
-                {/* Re-added text-glow-green and corrected spelling */}
+                {/* Removed TypingText and added static text with glow class */}
                 <div className="text-2xl font-semibold text-green-400 min-h-[2rem] text-glow-green">
                   Software Developer
                 </div>
@@ -228,7 +231,7 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold mb-12 text-center">Technical Skills</h2> {/* Centered heading */}
+          <h2 className="text-4xl font-bold mb-12 text-center">Technical Skills</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {skillCategories.map((category, index) => (
               <Card
