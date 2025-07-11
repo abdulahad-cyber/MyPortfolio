@@ -93,7 +93,7 @@ export default function Portfolio() {
       githubUrl: "https://github.com/abdulahad-cyber/centralized-messaging", // Add your actual repo URL
     },
     {
-      title: "Alphabetic Shopify Store",
+      title: "Alphalete Shopify Store",
       description:
         "Custom e-commerce theme with advanced product filtering, responsive design, and optimized performance.",
       tech: ["Liquid", "HTML", "CSS", "JavaScript"],
@@ -410,12 +410,45 @@ export default function Portfolio() {
                     <span className="text-gray-300">Dean's List Award</span>
                   </div>
                 </div>
+                {/* Removed the description paragraph */}
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* New Education Card: A-Levels */}
+          <Card className="bg-gray-900 border-gray-800 hover:border-green-400/50 transition-all duration-300 mt-8">
+            <CardContent className="p-8">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <div>
-                  <p className="text-gray-400 text-sm">
-                    Achieved Dean's List recognition in 4 out of 5 semesters, demonstrating consistent academic
-                    excellence in computer science fundamentals, algorithms, and software engineering.
-                  </p>
+                  <h3 className="text-2xl font-bold text-green-400">A-Levels</h3>
+                  <p className="text-xl text-gray-300">Beacon House College</p>
                 </div>
+                <div className="flex items-center text-gray-400 mt-2 md:mt-0">
+                  <Calendar className="h-4 w-4 mr-2" />
+                  Sep 2020 – Aug 2022
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-3"></div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* New Education Card: O-Levels */}
+          <Card className="bg-gray-900 border-gray-800 hover:border-green-400/50 transition-all duration-300 mt-8">
+            <CardContent className="p-8">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-bold text-green-400">O-Levels</h3>
+                  <p className="text-xl text-gray-300">Beacon House School</p>
+                </div>
+                <div className="flex items-center text-gray-400 mt-2 md:mt-0">
+                  <Calendar className="h-4 w-4 mr-2" />
+                  Sep 2018 – Aug 2020
+                </div>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-3"></div>
               </div>
             </CardContent>
           </Card>
