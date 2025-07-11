@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { TypingText } from "@/components/typing-text"
+// Remove the TypingText import
 import { Download, Calendar, Award, Mail, Phone, Linkedin, Github, Facebook, Menu, X } from "lucide-react"
 
 export default function Portfolio() {
@@ -169,12 +169,11 @@ export default function Portfolio() {
               </h1>
               <div className="text-xl text-gray-300 leading-relaxed">
                 <p className="mb-2">A passionate</p>
-                <div className="text-2xl font-semibold text-green-400 min-h-[2rem]">
-                  <TypingText text="Front-End Developer" speed={150} delay={1000} />
+                {/* In the Hero Section, replace the TypingText component with a static span and add a custom class for the glow */}
+                <div className="text-2xl font-semibold text-green-400 min-h-[2rem] text-glow-green">
+                  Software Developer
                 </div>
-                <p className="mt-4">
-                  crafting user-centric web interfaces with modern technologies and clean code practices.
-                </p>
+                {/* Removed the description below */}
               </div>
             </div>
             <Button
@@ -191,7 +190,7 @@ export default function Portfolio() {
               <div className="absolute inset-0 bg-gradient-to-br from-green-400/20 to-blue-500/20 rounded-full blur-3xl animate-pulse"></div>
               <Image
                 src="/abdul-ahad-photo.png"
-                alt="Abdul Ahad - Front-End Developer"
+                alt="Abdul Ahad - Software Developer"
                 width={320}
                 height={320}
                 className="relative z-10 rounded-full object-cover border-4 border-gray-800 hover:border-green-400/50 transition-all duration-300"
