@@ -203,6 +203,7 @@ export default function Portfolio() {
       {/* Skills Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-12">Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {skills.map((skill, index) => (
               <Card
