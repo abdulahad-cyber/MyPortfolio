@@ -394,7 +394,7 @@ export default function Portfolio() {
                   <Github className="h-5 w-5" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100052458142094"
                   className="p-3 bg-gray-800 rounded-full hover:bg-green-400 hover:text-black transition-all duration-300 hover:scale-110"
                 >
                   <Facebook className="h-5 w-5" />
