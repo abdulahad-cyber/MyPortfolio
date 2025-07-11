@@ -79,7 +79,7 @@ export default function Portfolio() {
       githubUrl: "https://github.com/abdulahad-cyber/centralized-messaging", // Add your actual repo URL
     },
     {
-      title: "Alphabetic Shopify Store",
+      title: "Alphalete Shopify Store",
       description:
         "Custom e-commerce theme with advanced product filtering, responsive design, and optimized performance.",
       tech: ["Liquid", "HTML", "CSS", "JavaScript"],
