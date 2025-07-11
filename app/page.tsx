@@ -79,7 +79,7 @@ export default function Portfolio() {
       githubUrl: "https://github.com/abdulahad-cyber/centralized-messaging", // Add your actual repo URL
     },
     {
-      title: "Alphalete Shopify Store",
+      title: "Alphabetic Shopify Store",
       description:
         "Custom e-commerce theme with advanced product filtering, responsive design, and optimized performance.",
       tech: ["Liquid", "HTML", "CSS", "JavaScript"],
@@ -304,6 +304,38 @@ export default function Portfolio() {
               </div>
             </CardContent>
           </Card>
+          <Card className="bg-gray-900 border-gray-800 hover:border-green-400/50 transition-all duration-300 mt-8">
+            <CardContent className="p-8">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-bold text-green-400">IT Intern</h3>
+                  <p className="text-xl text-gray-300">K-Electric</p>
+                </div>
+                <div className="flex items-center text-gray-400 mt-2 md:mt-0">
+                  <Calendar className="h-4 w-4 mr-2" />
+                  July 2025 – August 2025
+                </div>
+              </div>
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <p className="text-gray-300">
+                    Assisted in network maintenance and troubleshooting for internal systems.
+                  </p>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <p className="text-gray-300">Supported IT infrastructure operations and user technical support.</p>
+                </div>
+                <div className="flex items-start">
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  <p className="text-gray-300">
+                    Gained practical experience in IT service management and system administration.
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
@@ -328,7 +360,7 @@ export default function Portfolio() {
                   <div className="flex items-center">
                     <Award className="h-5 w-5 text-green-400 mr-2" />
                     <span className="text-gray-300">
-                      CCPA: <span className="text-green-400 font-semibold">3.53 / 4.0</span>
+                      CCPA: <span className="text-green-400 font-semibold">3.57 / 4.0</span>
                     </span>
                   </div>
                   <div className="flex items-center">
