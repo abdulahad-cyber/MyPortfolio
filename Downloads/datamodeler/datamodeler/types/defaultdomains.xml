@@ -1,0 +1,245 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Supplier_ID" id="19B73786-9BF2-F5E0-886F-B9B711F320F2">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:31:03 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Comments" id="22108DDF-1434-79A0-6FAD-BFAB8C56AAE8">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:32:56 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1500 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT041</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Hostel_Id" id="265E872B-D54B-5133-7ADD-F3429A8B0E9C">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:16:59 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Hostel_Name" id="2723895D-E01B-9C1E-E4DC-EDF9CABD64A7">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:17:38 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Feedback_Id" id="2DCBAC00-FD61-6A4F-19C7-7A5357D3EDE8">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:32:27 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Ingredient_Name" id="3061200C-8A4D-714E-6F3F-F3F52EBDB0D8">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:29:36 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Plan_Name" id="3C717A38-0592-0606-C1ED-5AB945EF1232">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:35:43 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Meal_Plan_Id" id="3D83E725-1108-2AB5-E9A7-D359972F59E1">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:19:46 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Resident_Id" id="3DE1A466-27CB-BF06-3149-AE775A632D03">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:18:53 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Supplier_Name" id="418739F5-BDC4-8D8E-A225-AA4832DB4F07">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:31:46 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_52" id="464921C6-E9B1-4255-DB36-F82022095DC2">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:36:19 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Preference_Id" id="51A0CB6B-F674-2137-020C-DDC75D488F83">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:20:41 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="MealTime" id="5FAC4A30-EA7E-B03E-F7A4-05BF8AAADE7B">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:34:55 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT047</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Operation_Id" id="5FC0D7FE-A9BF-6B12-2093-ED3793444A0D">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:34:00 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Location" id="66CD3842-C2B7-1ACB-FAF9-D803C3E2364C">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:17:19 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Booking_ID" id="7AAD388D-1F5D-7D58-5AEA-2B863293F708">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:18:27 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Amount" id="84197DE7-8B22-4376-93ED-8AE5BFABE57E">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:33:42 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>15000 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Payment_Id" id="99F3B333-FC2B-EAEF-4440-D9C76E8AB08D">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:33:12 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Name" id="B50110D0-FF9C-DCF8-AFAD-066671E292B7">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:38:19 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="phone_number" id="BF01C3C0-CEB2-674A-EA92-E4031FC3B23F">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:32:08 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_55" id="D00150D1-3804-B1C6-4C48-2AF11C8B92FC">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:39:08 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-05 21:11:13 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="quantity" id="E6EE5330-2052-99FD-6449-214143FB078B">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:30:20 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>10000 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Meal_Date" id="EB5840EE-2A8B-A08F-A7B2-01198F7CFB2E">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:20:21 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Inventory_Id" id="FAFF5E57-8026-35A4-8E05-A96F6E69FA0C">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:21:47 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Room_Number" id="FB3B4E7A-795C-B2DE-D233-50B2155D3C62">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:38:46 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Menu_Item" id="FC1FCF00-FF8D-E266-C584-AC067C47837E">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-06 08:34:30 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
