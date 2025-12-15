@@ -73,7 +73,7 @@ export default function Portfolio() {
         "Developed a full-stack job applicant management system as an introduction to Spring Boot (Java). Implemented RESTful APIs following layered architecture (Controller, Service, Repository). Integrated JWT-based stateless authentication using Spring Security. Ensured data integrity with database-level constraints and proper HTTP error handling.",
       tech: ["Spring Boot", "Spring Security (JWT)", "Spring Data JPA", "PostgreSQL", "HTML", "CSS", "JavaScript"],
       category: "Full Stack",
-      githubUrl: "https://github.com/abdulahad-cyber/job-applicant-system",
+      githubUrl: "https://github.com/sohaibbaig21/Jobappsys",
     },
     {
       title: "Employee Management System",
